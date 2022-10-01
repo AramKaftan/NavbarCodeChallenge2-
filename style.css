@@ -1,0 +1,86 @@
+body {
+    background:#dedede;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.dropdown {
+    margin: 0 auto; 
+}
+
+nav{
+    height: 50px;
+    background: rgb(213, 211, 211);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.logo {
+    padding: 10px 0 0 30px;
+    width: 130px;
+    height: auto;
+    margin-top: -20px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 120px;
+}
+nav ul li{
+   background: rgb(213, 211, 211);
+   position: relative;
+   list-style: none;
+   display: inline-block;
+   height: 50px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    background: rgb(167, 164, 164);
+    height: 50px;
+
+}
+
+nav ul ul{ 
+    position: absolute;
+    top: 50px; 
+    display: none;
+
+}
+
+nav ul li:hover> ul{
+    display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 150px;
+
+}
+
+.bd {
+    padding-top: 50px;
+    background-image: url("background.jpeg");
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+
+}
